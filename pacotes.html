@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/Party-PNG-Transparent-Picture.png">
+    <link rel="stylesheet" href="./estilos/styles.css">
+    <script src="./script/main.js" defer></script>
+    <title>Dyl Festas</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho_principal">
+            <a class="link-perfil" href="https://www.instagram.com/dylfestas"><img src="./assets/logo.PNG"
+                    alt="Foto logo Dyl" id="logo_principal"></a>
+            <h2 class="title">Dyl Festas</h2>
+        </div>
+    </header>
+
+    <main>
+        <section class="first_section__ballon">
+            <div class="section_style">
+                <h3 class="section_style__title">ORÇAMENTO DE BALÕES</h3>
+            </div>
+            <br>
+
+            <div class="ballons_imperial">
+
+                <table class="tabela_ballons">
+
+                    <th class="tabela_ballons_imperial_cabecalho tipo">TIPO:</th>
+                    <td>
+                        <select name="tipobalao" id="tipo">
+                            <option value="Imperial">IMPERIAL</option>
+                            <option value="Candy">CANDY</option>
+                            <option value="Metalizado">METALIZADO</option>
+                            <option value="Cintilante">CINTILANTE</option>
+                            <option value="Canudo">CANUDO</option>
+                            <option value="Bubble">BUBBLE</option>
+                        </select>
+                    </td>
+                    <th class="tabela_ballons_imperial_cabecalho numero">NÚMERO:</th>
+                    <td>
+                        <select name="numeracaobalao" id="numeracao">
+                            <option value="N5">N°5</option>
+                            <option value="N7">N°7</option>
+                            <option value="N9">N°9</option>
+                            <option value="N11">N°11</option>
+                            <option value="N16">N°16</option>
+                            <option value="N18">N°18</option>
+                        </select>
+                    </td>
+                    <th class="tabela_ballons_imperial_cabecalho cores">COR:</th>
+                    <td>
+                        <input type="text" name="corTexto" id="corTexto">
+                    </td>
+                    <th class="tabela_ballons_imperial_cabecalho quantidade">QUANTIDADES:</th>
+                    <td> <input type="text" name="quantidadeTexto" id="quantidadeTexto">
+                    </td>
+                    <td>
+                        <button class="botao">ADICIONAR</button>
+                    </td>
+                </table>
+
+            </div>
+
+        </section>
+    </main>
+
+
+    <section class="orcamento">
+        <div class="orcamento_lista">
+            <h3 class="titulo_orcamento_lista">ORÇAMENTO:</h3>
+        </div>
+        <div class="orcamento_completo_gerado">
+
+            <table class="orcamento_tabela">
+                <thead>
+                    <tr class="tabela_ballons_imperial_cabecalho">
+                        <th>
+                            <h3 class="orcamento_completo_gerado_titulo">TIPO</h3>
+                        </th>
+                        <th>
+                            <h3 class="orcamento_completo_gerado_titulo">NUMERAÇÃO</h3>
+                        </th>
+                        <th>
+                            <h3 class="orcamento_completo_gerado_titulo">COR</h3>
+                        </th>
+                        <th>
+                            <h3 class="orcamento_completo_gerado_titulo">PACOTES</h3>
+                        </th>
+                        <th>
+                            <h3 class="orcamento_completo_gerado_titulo">VALOR(CARTÃO)</h3>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody class="orcamento_tabela_2">
+                   
+                </tbody>
+
+</table>
+<div id="totalR">
+    <h4 style="font-size: 22px; text-align: center;"></h4>
+</div>
+
+
+
+</section>
+<!-- <button class="botao2">CALCULAR ORÇAMENTO</button> -->
+
+
+    <br>
+
+
+    <footer>
+        <div class="footer_info">
+            <p><i>Feito por &copy;Diego Gomes || 2023</i></p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</body>
